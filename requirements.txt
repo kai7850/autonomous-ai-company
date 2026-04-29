@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+celery
+redis
+sqlalchemy
+psycopg2-binary
+openai
+anthropic
+python-dotenv
+playwright
+aiohttp
+langchain
+langchain-community
+faiss-cpu
+pytrends
