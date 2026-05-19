@@ -1,1 +1,41 @@
-# Autonomous AI Company\n\n多 Agent 自主运营 AI 公司框架 - CEO/调研/内容/执行 自动化流水线\n\n## 架构\n- **FastAPI** - API 服务\n- **Celery + Redis** - 异步任务队列\n- **PostgreSQL** - 数据持久化\n- **Multi-Agent** - CEO → 调研 → 内容 → 执行\n\n## 快速开始\n\n```bash\ncp .env.example .env  # 填入你的 API Key\ndocker-compose up -d\n```\n\n## Agent 流水线\n1. **CEO Agent** - 拆解运营目标为可执行步骤\n2. **Research Agent** - 市场调研与热点分析\n3. **Content Agent** - 内容创作与优化\n4. **Execute Agent** - 执行与结果反馈
+# Autonomous AI Company
+
+Multi-agent autonomous AI company framework - CEO, Research, Content, and Execution agents operating in a fully automated pipeline.
+
+## Architecture
+
+- **FastAPI** - RESTful API service
+- **Celery + Redis** - Async task queue for agent orchestration
+- **PostgreSQL** - Persistent data storage
+- **Multi-Agent Pipeline** - CEO > Research > Content > Execution
+
+## Agent Pipeline
+
+1. **CEO Agent** - Decomposes business goals into actionable tasks, prioritizes work items, and coordinates sub-agents
+2. **Research Agent** - Autonomous market research, trend analysis, and competitive intelligence gathering
+3. **Content Agent** - AI-driven content creation, optimization, and multi-platform publishing
+4. **Execute Agent** - Task execution, result collection, and feedback loop for continuous improvement
+
+## Quick Start
+
+```bash
+cp .env.example .env  # Configure your API keys
+docker-compose up -d
+```
+
+## Use Cases
+
+- Automated social media content operations
+- Market research and competitive analysis
+- Content generation and schedule management
+- Data-driven business decision support
+
+## Tech Stack
+
+**Backend:** Python 3.11+, FastAPI, Celery, Redis, PostgreSQL
+**AI:** Multi-LLM orchestration, RAG pipeline, Agentic workflows
+**Infra:** Docker Compose, async task queue, RESTful API
+
+## License
+
+MIT
